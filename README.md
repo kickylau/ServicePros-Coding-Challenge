@@ -24,7 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Kicky's Online Library is a responsive datatable component built on a third-party React package called Material-UI. Along with Javascript and Vite. The book list is able to provide more than 100 books' information from Amazon by applying "search", "sort", "filter" ,"download", "print" and more features.
+Kicky's Online Library is a responsive datatable component built on a third-party React package called Material-UI, along with JavaScript and Vite. The application fetches data from SPIG's backend service hosted on Amazon and renders it in a data table, with features such as `search`, `sort`, `filter` ,`download`, `print` and more!
 
 
   <img src="ScreenShot.png" width=auto height=auto>
@@ -37,7 +37,7 @@ Kicky's Online Library is a responsive datatable component built on a third-part
 <!-- BUILT WITH -->
 ## Built With
 
-* [Javascript](https://www.javascript.com)
+* [JavaScript](https://www.javascript.com)
 * [Vite](https://vitejs.dev)
 * [React](https://reactjs.org/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -61,15 +61,6 @@ Kicky's Online Library is a responsive datatable component built on a third-part
     ```shell
     yarn
     ```
-<!--
-    ```
-    yarn add mui-datatables --save
-    ``` -->
-
-    If your project doesn't already use them, you need to install mui v5 and it's icon pack:
-    yarn --save add @mui/material @emotion/react @emotion/styled @mui/icons-material
-
-
 
 3. Start the server locally
 
@@ -77,12 +68,10 @@ Kicky's Online Library is a responsive datatable component built on a third-part
     yarn run dev
     ```
 
-    Open `http://localhost:5173` in a browser.
+4. Navigate to WebApp in browser
 
 
-
-
-
+    Open [http://localhost:5173](http://localhost:5173) in a browser.
 
 
 <!-- CONTACT -->
