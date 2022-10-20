@@ -52,7 +52,7 @@ Kicky's Online Library is a responsive datatable component built on a third-part
 1. Clone this repository (only this branch)
 
    ```bash
-   <!-- git clone https://github.com/kickylau/ServicePros-Coding-Challenge.git -->
+   git clone https://github.com/kickylau/ServicePros-Coding-Challenge.git
    ```
 
 2. Install dependencies
@@ -61,10 +61,10 @@ Kicky's Online Library is a responsive datatable component built on a third-part
     ```shell
     yarn
     ```
-
+<!--
     ```
     yarn add mui-datatables --save
-    ```
+    ``` -->
 
     If your project doesn't already use them, you need to install mui v5 and it's icon pack:
     yarn --save add @mui/material @emotion/react @emotion/styled @mui/icons-material
