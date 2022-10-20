@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 125px;
+}
+
+code {
+  background-color: #111;
+}
+
+/* .tss-lw1yhg-MUIDataTableHeadCell-data{
+  text-align:center;
+  color:white;
+  font-size:bold;
+  align-items: center;
+  display:inline-flex;
+} */
