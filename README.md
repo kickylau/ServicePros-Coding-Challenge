@@ -67,8 +67,8 @@ Kicky's Online Library is a responsive datatable component built on a third-part
     ``` -->
 
     If your project doesn't already use them, you need to install mui v5 and it's icon pack:
-    ```yarn --save add @mui/material @emotion/react @emotion/styled @mui/icons-material
-    ```
+    yarn --save add @mui/material @emotion/react @emotion/styled @mui/icons-material
+
 
 
 3. Start the server locally
