@@ -22,6 +22,12 @@ export default function BookTable({ data }) {
             options: {
                 filter: true,
                 sort: true,
+                setCellHeaderProps: () => ({
+                    style: {
+                        justifyContent: 'center',
+                        display: "flex"
+                    }
+                })
             }
         },
         {
@@ -51,7 +57,7 @@ export default function BookTable({ data }) {
     ]
 
     const options = {
-        filterType: "dropdown", //
+        filterType: "dropdown",
         selectableRows: false
     }
 
@@ -60,7 +66,7 @@ export default function BookTable({ data }) {
             MUIDataTableBodyCell: {
                 styleOverrides: {
                     root: {
-                        textAlign:"center"
+                        textAlign: "center"
                     }
                 }
             },
@@ -86,15 +92,13 @@ export default function BookTable({ data }) {
                         backgroundColor: "#bbdefb"
                     },
 
-                    data:{
-                        fontWeight:"bold",
-                        textAlign:"center",
-                        alignItems:"center",
-                        color:"black",
-                        display:"block",
-                        padding:"auto"
+                    data: {
+                        fontWeight: "bold",
+                        textAlign: "center",
+                        alignItems: "center",
+                        color: "white",
+                        padding: "auto"
                     }
-
                 }
             }
         }
